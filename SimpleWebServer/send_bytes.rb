@@ -17,6 +17,8 @@ class SendBytes
 	def send_bytes
 		s = TCPSocket.new(@hostname, @port)
 		s.puts [0x02].pack("C")
+		
+		puts s.gets
         s.close
 	end
 	
