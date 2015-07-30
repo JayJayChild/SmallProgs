@@ -1,5 +1,21 @@
+##### Reflection Interface implementing Dynamic Factory Options #######
+# @author: James Child
+# @date: 30/07/2015
+#
+# Uses reflection to inspect and manipulate objects at runtime. This is 
+# to demonstrate how reflection could be used to create a terminal based
+# manipulation tool for developers of a system. The terminal tool is 
+# dynamically generated using the factory pattern, encapsulating each of
+# its command options within seperate classes. 
+#
+# The simulated "program" to inspect consists of a few classes. On a 
+# larger, more maintainable scale, this would should have access to the 
+# application controller(s) and act as a seperate interface using, 
+# reflection. 
 #######################################################################
-#				Classes to Inspect using Reflection					  #
+
+#######################################################################
+#	(The simulated program) Classes to Inspect using Reflection		  #
 #######################################################################
 
 #Class describing a car
