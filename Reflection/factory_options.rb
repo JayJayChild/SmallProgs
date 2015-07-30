@@ -50,6 +50,8 @@ end
 # Abstract/ Interface API Module
 # Throws abstract interface error if a class implementing an interface
 # class does not provide implementation for the inherited methods. 
+# Thanks to Mark Bates building interfaces and abstract classes article
+# http://metabates.com/2011/02/07/building-interfaces-and-abstract-classes-in-ruby/
 ####################################################################### 
 module AbstractInterface
 	class InterfaceNotImplementedError < NoMethodError
